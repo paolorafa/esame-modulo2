@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Esame Modulo 2</title>
+</head>
+
+<body>
+
+    <div id="testata">
+        <h1>EpicodJob</h1>
+        <div><img src="assets/epicode-logo.png" alt="logo"></div>
+
+    </div>
+
+
+    <div id="ricerca">
+        <div>
+            <label for="titolo"></label>
+            
+            <input type="text" id="jobTitle" placeholder="Posizione lavorativa:" />
+        </div>
+        <div>
+            <label for="locazione"></label>
+            <input type="text" id="location" placeholder="Posizione geografica:" />
+        </div>
+
+        <div> <button id="cerca">Cerca</button></div>
+
+    </div>
+
+
+    <div id="tabella">
+        <table id="tab">
+            <thead>
+                <tr>
+                    <th>Titolo</th>
+                    <th>Posizione</th>
+                    <th>Candidati</th>
+                </tr>
+            </thead>
+            <tbody id="risultatoRicerca"></tbody>
+        </table>
+    </div>
+
+    <script type="text/javascript" src="./scaricabile.js"> </script>
+
+</body>
+
+</html>

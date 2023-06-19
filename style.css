@@ -1,0 +1,93 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#testata{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: rgb(214,211,211);
+    background: linear-gradient(100deg, rgba(214,211,211,0.5116421568627452) 0%, rgba(26,34,86,0.9763213734567902) 0%, rgba(0,0,0,0.46122198879551823) 100%);}
+
+img{
+    width: 40%;
+    margin: 1em;
+}
+
+
+#tabella{
+    margin: 1em;
+}
+
+
+table {
+    border-collapse:separate;
+    width: 100%;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  .th-new{
+    color: white;
+    background: rgb(214,211,211);
+    background: linear-gradient(100deg, rgba(214,211,211,0.5116421568627452) 0%, rgba(26,34,86,0.9763213734567902) 0%, rgba(0,0,0,0.46122198879551823) 100%);
+  }
+
+  #ricerca{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 2em;
+    
+  }
+
+  #ricerca label{
+    margin: 1em;
+    font-size: 1.5em;
+  }
+
+  #jobTitle{
+    padding: 1em;
+    border-radius: 1em;
+    width: 25em;
+  }
+
+  #location{
+    padding: 1em;
+    border-radius: 1em;
+    width: 25em;
+  }
+
+  #cerca{
+    margin-left: 1.5em;
+    color: white;
+   padding: 0.8em;
+    border-radius: 1em;
+    width: 7em;
+    background: rgb(214,211,211);
+    background: linear-gradient(100deg, rgba(214,211,211,0.5116421568627452) 0%, rgba(26,34,86,0.9763213734567902) 0%, rgba(0,0,0,0.46122198879551823) 100%);
+  }
+
+  .btn-candidati{
+    padding: 0.3em;
+    border-radius: 0.5em;
+    margin-top: 0.4em;
+    margin-left: 0.8em;
+  }
+
+
+  @media only screen and (max-width: 920px) {
+    #ricerca { flex-direction: column; }
+    #ricerca input{ margin-top: 0.4em;}
+    #cerca {margin-top: 0.4em;}
+}
